@@ -31,3 +31,4 @@ echo "ANTHROPIC_API_KEY=" >> .env
 echo "GOOGLE_API_KEY=" >> .env
 echo "HUGGINGFACEHUB_ACCESS_TOKEN=" >> .env
 ```
+3️⃣ Run the Project
