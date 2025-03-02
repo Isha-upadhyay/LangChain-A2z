@@ -6,28 +6,28 @@
 ```bash
 git clone https://github.com/Isha-upadhyay/LangChain-A2z.git
 cd LangChain-A2z
-
+```
 2️⃣ Create a Virtual Environment (Recommended)
+```bash
 python -m venv venv
+```
 Windows:
+```bash
 venv\Scripts\activate
+```
 Mac/Linux:
-bash
-Copy
-Edit
+```bash
 source venv/bin/activate
+```
 3️⃣ Install Dependencies
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 ⚙️ Environment Variables
 Create a .env file in the project root and add the following:
-
-bash
-Copy
-Edit
+```bash
 echo "OPENAI_API_KEY=" >> .env
 echo "ANTHROPIC_API_KEY=" >> .env
 echo "GOOGLE_API_KEY=" >> .env
 echo "HUGGINGFACEHUB_ACCESS_TOKEN=" >> .env
+```
