@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: langchain-huggingface
+Version: 0.1.2
+Summary: An integration package connecting Hugging Face and LangChain
+Home-page: https://github.com/langchain-ai/langchain
+License: MIT
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: huggingface-hub (>=0.23.0)
+Requires-Dist: langchain-core (>=0.3.15,<0.4.0)
+Requires-Dist: sentence-transformers (>=2.6.0)
+Requires-Dist: tokenizers (>=0.19.1)
+Requires-Dist: transformers (>=4.39.0)
+Project-URL: Repository, https://github.com/langchain-ai/langchain
+Project-URL: Release Notes, https://github.com/langchain-ai/langchain/releases?q=tag%3A%22langchain-huggingface%3D%3D0%22&expanded=true
+Project-URL: Source Code, https://github.com/langchain-ai/langchain/tree/master/libs/partners/huggingface
+Description-Content-Type: text/markdown
+
+# langchain-huggingface
+
+This package contains the LangChain integrations for huggingface related classes.
+
+## Installation and Setup
+
+- Install the LangChain partner package
+```bash
+pip install langchain-huggingface
+```
+
